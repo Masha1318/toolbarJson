@@ -1,0 +1,23 @@
+{
+    "2": {
+        "get": {
+            "recordId": 789
+        },
+        "post": {
+            "stats": "visible",
+            "sum": 4
+        }
+    },
+    "14": {
+        "get": null,
+        "pull": null,
+        "label": "Просто иконка"
+    },
+    "15": {
+        "get": {
+            "status": "new"
+        },
+        "post": null,
+        "label": "35"
+    }
+}

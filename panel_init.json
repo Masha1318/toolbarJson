@@ -1,0 +1,70 @@
+{
+    "position": "top",
+    "isOpened": true,
+    "background": "#ff0000",
+    "extensions": [
+        {
+            "id": 1,
+            "name": "element1",
+            "title": "Елемент 1",
+            "description": "Первый елемент",
+            "type": "link",
+            "color": null,
+            "icon": null,
+            "link": "notes/all"
+        },
+        {
+            "id": 4,
+            "name": "test_menu",
+            "title": "Избранное",
+            "description": "Избранные инструменты",
+            "type": "menu",
+            "color": "#fded00",
+            "icon": "https://example.com/images/cheburek150x150.png",
+            "elements": [
+                {
+                    "id": 2,
+                    "name": "tool",
+                    "title": "Инструмент",
+                    "description": "Тестовый инструмент",
+                    "type": "popup",
+                    "color": "#00d9fd",
+                    "icon": null,
+                    "link": "record/edit",
+                    "hasRequiredData": true,
+                    "width": 90,
+                    "height": 95
+                }
+            ]
+        }
+    ],
+    "tray": [
+        {
+            "id": 14,
+            "symbol": "\f188",
+            "color": "#cc5500",
+            "description": "Жук",
+            "hasLabel": true,
+            "link": null,
+			"hasRequiredData": false
+        },
+		{
+			"id": 15,
+			"symbol": "\f07a",
+			"color": "#c3c3c3",
+			"description": "Новые заказы",
+			"hasLabel": true,
+			"link": "main/order",
+			"hasRequiredData": true
+		},
+        {
+            "id": 17,
+            "symbol": "\f52b",
+            "color": "#7e7e7e",
+            "description": "Закрыть текущий сеанс",
+            "hasLabel": false,
+            "link": "user/logout",
+			"hasRequiredData": false
+        }
+    ]
+}
